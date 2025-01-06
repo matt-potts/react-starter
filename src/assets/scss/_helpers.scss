@@ -1,0 +1,79 @@
+@use 'variables' as *;
+
+// helper classes for various screen sizes
+
+// small
+@media screen and (width < $screen-medium-min) {
+  .hidden-small {
+    display: none !important;
+  }
+  .show-on-medium {
+    display: none !important;
+  }
+  .show-on-large {
+    display: none !important;
+  }
+  .show-on-xlarge {
+    display: none !important;
+  }
+  .hidden-smaller {
+    display: none !important;
+  }
+}
+
+// medium
+@media screen and ($screen-medium-min <= width < $screen-large-min) {
+  .hidden-medium {
+    display: none !important;
+  }
+  .show-on-small {
+    display: none !important;
+  }
+  .show-on-large {
+    display: none !important;
+  }
+  .show-on-xlarge {
+    display: none !important;
+  }
+  .hidden-smaller {
+    display: none !important;
+  }
+}
+
+// large
+@media screen and ($screen-large-min <= width < $screen-xlarge-min) {
+  .hidden-large {
+    display: none !important;
+  }
+  .show-on-small {
+    display: none !important;
+  }
+  .show-on-medium {
+    display: none !important;
+  }
+  .show-on-xlarge {
+    display: none !important;
+  }
+  .hidden-larger {
+    display: none !important;
+  }
+}
+
+// xlarge
+@media screen and (width >= $screen-xlarge-min) {
+  .hidden-xlarge {
+    display: none !important;
+  }
+  .show-on-small {
+    display: none !important;
+  }
+  .show-on-medium {
+    display: none !important;
+  }
+  .show-on-large {
+    display: none !important;
+  }
+  .hidden-larger {
+    display: none !important;
+  }
+}

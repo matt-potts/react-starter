@@ -1,0 +1,8 @@
+{
+  "page": {
+    "home": {
+      "helloWorld": "Hello World",
+      "hi": "Hi there!"
+    }
+  }
+}
