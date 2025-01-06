@@ -10,6 +10,8 @@ This project includes Vite, React, Typescript, Material UI for modern UI compone
 
 To run the project, run `npm run dev` in a terminal and navigate to `http://localhost:5173/` in the browser of your choice. The `HomePage` component is loaded (see `pages` folder), showing a simple "Hello World" message, loaded from the English translation file (see the `locales` folder within the assets folder).
 
+To build (for deployment) run `npm run build`. The built project will end up in the `dist` folder. That content is what is put on your public-facing web server.
+
 ## Project Details
 
 This project is a website built in [React](https://react.dev/learn) and [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html), using [Vite](https://vite.dev/guide/) as the build tool. The styling is done using [Material UI](https://mui.com/material-ui/getting-started/) and the [Sass](https://sass-lang.com/) CSS extension language. Configuration and project files mostly live where you would expect a React project to have them. We use a modified version of the [Bulletproof](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) file structure and a flavour of the Proximity Principle for organization of code. Base folders use camelCase, as do utility files and lib files, while everything else uses TitleCase/PascalCase.
