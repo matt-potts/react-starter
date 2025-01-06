@@ -78,7 +78,7 @@ Here's a breakdown of the `src` folder:
 
 **utils** - Global-level utility code.
 
-**App.tsx** - The application level component, implementing providers, routes, stripe, etc.
+**App.tsx** - The application level component, implementing providers, routes, etc.
 
 **i18n.ts** - A config file for project translations.
 
