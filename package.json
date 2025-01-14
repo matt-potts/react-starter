@@ -5,7 +5,7 @@
   "description": "A basic starter project using Vite, React, Typescript, and more.",
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/matt-potts/react-starter.git"
+    "url": "https://github.com/matt-potts/react-starter.git"
   },
   "license": "MIT",
   "scripts": {
